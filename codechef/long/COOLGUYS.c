@@ -2,13 +2,28 @@
 #include <math.h>
 
 #define s(n) scanf("%lld", &n)
+#define swap(a, b) {long long tmp = a; a = b; b = tmp;}
 long long gcd(long long a, long long b) {
     if (a == 0) return b;
     if (b == 0) return a;
-    while (a != b)
-        if (a > b) a -= b;
-        else b -= a;
-    return a;
+    int d = 1;
+    while (a != b) {
+        if ((a&1) && (b&1)) {
+            if (b > a) swap(a, b);
+            b = gcd(b, (a-b)/2);
+            break;
+        } else if (!(a&1) && !(b&1)) {
+            d <<= 1;
+            a >>= 1;
+            b >>= 1;
+        } else if (!(a&1)) {
+            a >>= 1;
+        } else {
+            b >>= 1;
+            //printf("%lld\n", b);
+        }
+    }
+    return b * d;
 }
 
 int main() {
