@@ -1,0 +1,32 @@
+Helping Lira
+
+Lira sống trong một ngôi làng nhỏ tại một vùng quê hẻo lánh. Vì thế cô thường hay cảm thấy buồn chán và thường tự sáng tạo trò chơi cho riêng mình.
+Lira đã tạo ra một trò chơi mới.
+
+Cô có rất nhiều đá. Cô quyết định chia những hòn đá thành từng nhóm 3 hòn và đặt xuống đất tạo thành những hình tam giác.
+
+Sau đó Lira sẽ chọn ra 2 hình tam giác mà cô cho là "đẹp nhất". 2 tam giác đó là 2 tam giác có diện tích nhỏ nhất và lớn nhất.
+
+Mặc dù Lira có thể đoán diện tích của tam giác nhưng cô không chắc chắn. May thay, Lira quen bạn, một nhà toán học tài năng. Cô biết được rằng bạn biết cách tính diện tích tam giác và sẽ sẵn sàng giúp đỡ cô tìm ra 2 tam giác kể trên.
+
+
+Input
+Dòng đầu tiên chứa 1 số N, là số lượng tam giác
+N dòng tiếp theo, mỗi dòng chứa 6 số là các giá trị x1, y1, x2, y2, x3, y3
+
+Output
+2 số cách nhau bởi một dấu cách (space), lần lượt là số thứ tự của tam giác nhỏ nhất và lớn nhất
+Nếu có nhiều tam giác có cùng diện tích, in số thứ tự lớn nhất.
+
+Giới hạn:
+    2 <= N <= 100
+    -1000 <= x[i], y[i] <= 1000
+
+Ví dụ:
+Input:
+2
+0 0 0 100 100 0
+1 1 1 5 5 1
+
+Output:
+2 1
