@@ -1,0 +1,16 @@
+Nước Croatia tổ chức một chương trình tivi tên gọi "Tôi yêu Croatia". Trong chương trình này, 2 đội gồm những nhân vật nổi tiếng sẽ tham gia các trò chơi thử thách kiến thức về Croatia. Một trong những trò chơi này là Happby Birthday, được dùng trong phần thi này, mặc dù có bị thay đổi đôi chút.
+
+8 người chơi đánh số từ 1 đến tới được đặt ngồi trong 1 vòng tròn (xem hình bên).
+Người chơi sẽ truyền nhau một cái hộp "phát nổ", cái hộp sẽ phát nổ sau 3'30s tính từ khi trò chơi bắt đầu. Người cầm chiếc hộp lúc nó phát nổ sẽ phải rời cuộc chơi.
+Trò chơi bắt đầu với một người cầm chiếc hộp. Nếu người chơi trả lời câu hỏi sai(incorrect) hoặc bỏ qua câu hỏi (skip), người đó sẽ được đưa cho câu hỏi kế tiếp. Nếu người chơi trả lời đúng, anh ta sẽ truyền cái hộp sang cho người ngồi ngay bên trái anh ta và người đó sẽ được hỏi câu hỏi kế tiếp.
+
+Bạn được cho một số là số của người đầu tiên cầm chiếc hộp và kết quả của N câu hỏi đâu tiên. Cho biết người sẽ bị loại trong cuộc chơi. Kết quả của các câu hỏi sẽ có định dạng sau: thời gian từ khi câu hỏi được hỏi cho tới khi có câu trả lời và câu trả lời là đúng (T), sai(F) hay bỏ qua(S). Giả sử thời gian đọc câu hỏi và thời gian đọc ra câu trả lời không đáng kkhông đáng kể, thời gian truyền hộp cũng không đáng kể. Cái hộp chắc chắn sẽ nổ vào lượt của 1 người nào đó.
+
+INPUT:
+
+Dòng đầu tiên chứa 1 số nguyên K là số thứ tự của người chơi cầm hộp đầu tiên
+Dòng thứ 2 chứa 1 số nguyên N (1<=N<=100) là số câu hỏi đã được hỏi trong trò chơi
+N dòng tiếp theo, mỗi dòng chứa 1 số nguyên dương T (1<=T<=100), thời gian từ khi câu hỏi thứ i được hỏi cho tới khi câu trả lời được đưa ra, tính bằng giây, và 1 kí tự duy nhất: Z ('T', 'F', hoặc 'S') là kết quả của câu trả lời.
+
+OUTPUT:
+Dòng đầu tiên và duy nhất chứa một số là số kí hiệu của người chơi cầm hộp khi chiếc hộp bị nổ.
