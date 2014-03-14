@@ -7,9 +7,33 @@ const ll N = 1 << K;
 const ll MOD = 1e9 + 9;
 ll k, n, ans, fact[N+5];
 
-ll choose(ll n, ll k) {
-  return (fact[n] / ((fact[k]*fact[n-k])%MOD))%MOD;
+ll mpow(ll n, ll p) {
+  ll res = 1;
+  ll base = n;
+  while (p) {
+    if (p & 1) {
+      res = (res * base) % MOD;
+    }
+    base = (base * base) % MOD;
+    p >>= 1;
+  }
+  return res;
 }
+
+ll mpow2(ll n, ll p) {
+  if (p == 0) return 1;
+  ll a = mpow2(p/2);
+  return (p&1) ? a*a*n : a*a*;
+}
+
+ll inv(ll n) {
+  return mpow(n, MOD - 2)%MOD;
+}
+
+ll choose(ll n, ll k) {
+  return (fact[n] * inv((fact[k]*fact[n-k])%MOD))%MOD;
+}
+
 
 int main() {
   scanf("%lld", &k);
