@@ -16,33 +16,41 @@ using namespace std;
 vector<pair<int, int> > e;
 
 const int N = 10000;
-int a[N];
+int parent[N], a[N], val[N];
+int root(int n) {
+  return parent[n] == n ? n : parent[n] = root(parent[n]);
+}
+
+int join(int x, int y) {
+  x = root(x);
+  y = root(y);
+  if (rand() & 1) {
+    parent[x] = y;
+  } else {
+    parent[y] = x;
+  }
+}
+
 int main() {
   int n, m, x, y;
   while (scanf("%d %d", &n, &m) != EOF) {
-    e.clear();
     for (int i=0;i <n;i++) {
       scanf("%d", &a[i]);
+      parent[i] = i;
+      val[i] = 0;
     }
     for (int i=0;i <m;i++) {
       scanf("%d %d", &x, &y);
-      if (x > y) swap(x, y);
-      e.push_back(mp(x, y));
-    }
-    sort(e.begin(), e.end());
-    for (int i=e.size()-1; i>=0; i--) {
-      x = e[i].x;
-      y = e[i].y;
-      a[x] += a[y];
-      a[y] = 0;
-      //cout << x << " " << y << endl;
+      join(x, y);
     }
     bool good = true;
-    for (int i=0; i<n; i++) {
-      if (a[i] != 0) good = false;
-      //cout << a[i] << " ";
+    for (int i = 0; i<n; i++) {
+      int j = root(i);
+      val[j] += a[i];
     }
-    //cout << endl;
+    for (int i=0; i<n; i++) {
+      if (val[i] != 0) good = false;
+    }
     printf("%s\n", (good) ?  "POSSIBLE" : "IMPOSSIBLE");
   }
   return 0;
