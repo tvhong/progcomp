@@ -3,44 +3,35 @@
 
 using namespace std;
 class FlowerGarden {
-private:
-  vector<int> itoidx;
-
-  bool bloom_comp(int i, int j) {
-    return bloom[itoidx[i]] < bloom[itoidx[j]];
-  }
-
-
 public:
   vector<int> getOrdering(vector<int> height, vector<int> bloom, vector<int> wilt) {
 
     int n = height.size();
-    vector<int> is_curr_flowers(n, 0);
-    vector<int> curr_loc(n, -1);
+    vector<bool> used(n, 0);
+    vector<int> res(n);
+    //printf("%d\n", (int)used.size());
 
-    itoidx.reserve(n);
-    for (int i=0; i<n; i++) 
-      itoidx[i] = i;
-
-    sort(itoidx.begin(), itoidx.end(), bloom_comp);
-    int bloom_head = 0;
-    for (int date = 1; date <= 365; date++) {
-      if (bloom[bloom_head] != date)
-        continue;
-
-      for (int i=0; i<is_curr_flowers.size(); i++) {
-        if (is_curr_flowers[i]) {
-          if (wilt[i] < date) is_curr_flowers[i] = false;
+    for (int i=0; i<n; i++) {
+      int maxH = 0;
+      int pos = -1;
+      for (int j=0; j<n; j++) {
+        if (used[j]) continue;
+        bool found = true;
+        for (int k=0; k<n; k++) {
+          if (j == k || used[k]) continue;
+          if (!(wilt[k] < bloom[j] || wilt[j] < bloom[k]) &&
+              height[j]>height[k])
+            found = false;
+        }
+        if (found && height[j] > maxH) {
+          maxH = height[j];
+          pos = j;
         }
       }
-      int iminh = -1;
-      for (int i=0; i<n; i++) {
-        if (is_curr_flowers[i]) 
-          if (iminh == -1)
-            iminh = i;
-          else if (height[i] > height[iminh]);
-      bloom_head++;
+      res[i] = maxH;
+      used[pos] = 1;
     }
+    return res;
   }
 };
 
