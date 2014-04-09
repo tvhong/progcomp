@@ -6,7 +6,7 @@
 #define x first
 #define y second
 using namespace std;
-const double EPS = 1e-8;
+const double EPS = 1e-4;
 typedef pair<double, double> Point;
 
 Point p[4];
