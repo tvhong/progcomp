@@ -55,7 +55,15 @@ void solve() {
         }
       }
     }
-  DFS(1);
+  int curn = n - ans;
+  int bestn = 0;
+  for (int u = 1; u<=n; u++) {
+    if (deg[u] == 2) {
+      int nn = DFS(u); // take u as root and run until meet a vertex of deg 2
+      bestn = max(nn, bestn);
+    }
+  }
+  ans += curn - bestn;
   if (ndeg2 == 0) ans++;
   for (int u=1; u<=n; u++) {
     printf("u=%d, deg[u] = %d\n", u, deg[u]);
