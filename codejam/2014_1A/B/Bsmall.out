@@ -1,0 +1,1501 @@
+Case #1: u=1, deg[u] = 2
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 2
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 3
+u=9, deg[u] = 2
+u=10, deg[u] = 3
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+2
+Case #2: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 2
+u=10, deg[u] = 3
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+u=15, deg[u] = 3
+3
+Case #3: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 3
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 2
+u=12, deg[u] = 2
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+4
+Case #4: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 2
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #5: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 2
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+5
+Case #6: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+1
+Case #7: u=1, deg[u] = 3
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+6
+Case #8: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 2
+u=5, deg[u] = 2
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+2
+Case #9: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 2
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 2
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+3
+Case #10: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #11: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 2
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #12: u=1, deg[u] = 1
+u=2, deg[u] = 2
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+u=15, deg[u] = 3
+3
+Case #13: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+12
+Case #14: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 2
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+10
+Case #15: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 2
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 2
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 2
+u=15, deg[u] = 1
+2
+Case #16: u=1, deg[u] = 2
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+3
+Case #17: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 2
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 2
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+u=15, deg[u] = 1
+6
+Case #18: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+4
+Case #19: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 2
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #20: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 3
+u=4, deg[u] = 2
+u=5, deg[u] = 3
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 2
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+1
+Case #21: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 3
+u=9, deg[u] = 1
+u=10, deg[u] = 2
+u=11, deg[u] = 1
+u=12, deg[u] = 2
+u=13, deg[u] = 2
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+2
+Case #22: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 2
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+u=15, deg[u] = 1
+3
+Case #23: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 3
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 2
+4
+Case #24: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 2
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+2
+Case #25: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 2
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #26: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 2
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 2
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+5
+Case #27: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+8
+Case #28: u=1, deg[u] = 1
+u=2, deg[u] = 2
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #29: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+5
+Case #30: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 2
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+4
+Case #31: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 2
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+6
+Case #32: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 2
+u=5, deg[u] = 1
+u=6, deg[u] = 3
+u=7, deg[u] = 2
+u=8, deg[u] = 1
+u=9, deg[u] = 2
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+4
+Case #33: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 2
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+8
+Case #34: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+u=10, deg[u] = 2
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+5
+Case #35: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 2
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+4
+Case #36: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 2
+u=13, deg[u] = 3
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+8
+Case #37: u=1, deg[u] = 1
+u=2, deg[u] = 2
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 2
+u=7, deg[u] = 1
+u=8, deg[u] = 3
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+4
+Case #38: u=1, deg[u] = 2
+u=2, deg[u] = 2
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+5
+Case #39: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 2
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+6
+Case #40: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 2
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+6
+Case #41: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 2
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #42: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 2
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+4
+Case #43: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 2
+u=13, deg[u] = 3
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #44: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+6
+Case #45: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 3
+u=9, deg[u] = 2
+u=10, deg[u] = 1
+u=11, deg[u] = 2
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 2
+u=15, deg[u] = 2
+2
+Case #46: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 3
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+u=15, deg[u] = 1
+4
+Case #47: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 2
+u=5, deg[u] = 3
+u=6, deg[u] = 3
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+2
+Case #48: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 3
+u=6, deg[u] = 2
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #49: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 3
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 2
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #50: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+4
+Case #51: u=1, deg[u] = 1
+u=2, deg[u] = 2
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+2
+Case #52: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 2
+u=5, deg[u] = 1
+u=6, deg[u] = 2
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 3
+3
+Case #53: u=1, deg[u] = 3
+u=2, deg[u] = 3
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 3
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #54: u=1, deg[u] = 3
+u=2, deg[u] = 2
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+4
+Case #55: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 2
+u=14, deg[u] = 1
+u=15, deg[u] = 2
+4
+Case #56: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 4
+u=12, deg[u] = 3
+u=13, deg[u] = 2
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+1
+Case #57: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 2
+u=5, deg[u] = 1
+0
+Case #58: u=1, deg[u] = 2
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 2
+u=5, deg[u] = 2
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #59: u=1, deg[u] = 3
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 3
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 2
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+4
+Case #60: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 3
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 2
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+4
+Case #61: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 2
+u=5, deg[u] = 1
+u=6, deg[u] = 3
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #62: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 3
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+5
+Case #63: u=1, deg[u] = 1
+u=2, deg[u] = 2
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+4
+Case #64: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 2
+u=14, deg[u] = 1
+u=15, deg[u] = 2
+5
+Case #65: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 2
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+8
+Case #66: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 2
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+u=15, deg[u] = 3
+5
+Case #67: u=1, deg[u] = 2
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 2
+u=14, deg[u] = 2
+u=15, deg[u] = 1
+4
+Case #68: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 3
+u=7, deg[u] = 2
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 2
+3
+Case #69: u=1, deg[u] = 1
+u=2, deg[u] = 2
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 2
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+7
+Case #70: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 2
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+4
+Case #71: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 2
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+8
+Case #72: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 2
+8
+Case #73: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 2
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+u=15, deg[u] = 1
+4
+Case #74: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 2
+u=6, deg[u] = 1
+u=7, deg[u] = 2
+u=8, deg[u] = 1
+u=9, deg[u] = 2
+u=10, deg[u] = 3
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+4
+Case #75: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 2
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+8
+Case #76: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 2
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+4
+Case #77: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 2
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 2
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+7
+Case #78: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 2
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 2
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+5
+Case #79: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 3
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 2
+6
+Case #80: u=1, deg[u] = 2
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+0
+Case #81: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 2
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 3
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 2
+u=13, deg[u] = 2
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+4
+Case #82: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 3
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 2
+u=15, deg[u] = 3
+4
+Case #83: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+4
+Case #84: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+6
+Case #85: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+u=15, deg[u] = 1
+12
+Case #86: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+8
+Case #87: u=1, deg[u] = 1
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+1
+Case #88: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 2
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+6
+Case #89: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 2
+u=12, deg[u] = 1
+u=13, deg[u] = 2
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+7
+Case #90: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 2
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+6
+Case #91: u=1, deg[u] = 1
+u=2, deg[u] = 0
+2
+Case #92: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 3
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 2
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 3
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 3
+2
+Case #93: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 3
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 3
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+u=15, deg[u] = 1
+2
+Case #94: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 3
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 2
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+6
+Case #95: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 2
+u=12, deg[u] = 3
+u=13, deg[u] = 3
+u=14, deg[u] = 2
+u=15, deg[u] = 1
+3
+Case #96: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 2
+u=8, deg[u] = 3
+u=9, deg[u] = 3
+u=10, deg[u] = 1
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 3
+u=15, deg[u] = 1
+6
+Case #97: u=1, deg[u] = 2
+u=2, deg[u] = 3
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 3
+u=6, deg[u] = 1
+u=7, deg[u] = 3
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 1
+u=11, deg[u] = 2
+u=12, deg[u] = 1
+u=13, deg[u] = 3
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+3
+Case #98: u=1, deg[u] = 1
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 1
+u=7, deg[u] = 2
+u=8, deg[u] = 1
+5
+Case #99: u=1, deg[u] = 1
+u=2, deg[u] = 2
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 1
+u=6, deg[u] = 3
+u=7, deg[u] = 1
+u=8, deg[u] = 1
+u=9, deg[u] = 1
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 2
+u=15, deg[u] = 3
+5
+Case #100: u=1, deg[u] = 3
+u=2, deg[u] = 1
+u=3, deg[u] = 1
+u=4, deg[u] = 1
+u=5, deg[u] = 2
+u=6, deg[u] = 2
+u=7, deg[u] = 1
+u=8, deg[u] = 3
+u=9, deg[u] = 3
+u=10, deg[u] = 3
+u=11, deg[u] = 1
+u=12, deg[u] = 1
+u=13, deg[u] = 1
+u=14, deg[u] = 1
+u=15, deg[u] = 1
+3
