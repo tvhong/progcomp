@@ -56,34 +56,14 @@ void recurse(int k) {
     for (int v = 9; v>=1 && !done; v--) {
       if (rows[i].mask[v] || cols[j].mask[v] || subgrids[l].mask[v])
         continue;
-      /*
-      if (v+rows[i].sum > SUM || v*rows[i].prod > PROD ||
-          v+cols[j].sum > SUM || v*cols[j].prod > PROD ||
-          v+subgrids[l].sum > SUM || v*subgrids[l].prod > PROD) {
-        continue;
-      */
-      //rows[i].sum += v;
-      //rows[i].prod *= v;
       rows[i].mask[v] = 1;
-      //cols[j].sum += v;
-      //cols[j].prod *= v;
       cols[j].mask[v] = 1;
-      //subgrids[l].sum += v;
-      //subgrids[l].prod *= v;
       subgrids[l].mask[v] = 1;
       sol[k] = v+'0';
 
       recurse(k+1);
-      //printf("back to %d\n", k);
-
-      //rows[i].sum -= v;
-      //rows[i].prod /= v;
       rows[i].mask[v] = 0;
-      //cols[j].sum -= v;
-      //cols[j].prod /= v;
       cols[j].mask[v] = 0;
-      //subgrids[l].sum -= v;
-      //subgrids[l].prod /= v;
       subgrids[l].mask[v] = 0;
       sol[k] = '.';
     }

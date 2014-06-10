@@ -33,8 +33,10 @@ int main() {
     init();
     for (int i=0; i<m; i++) {
       scanf("%d %d", &u, &v);
-      edges[u].insert(v);
-      edges[v].insert(u);
+      if (u != v) {
+        edges[u].insert(v);
+        edges[v].insert(u);
+      }
     }
     typedef map<int, set<int> >::iterator it_type;
     bool good = true;
