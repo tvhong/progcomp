@@ -10,18 +10,23 @@
 using namespace std;
 
 int n, m, u, v;
+bool iscycle;
 map<int, set<int> > edges;
 map<int, int> seen;
 
-int DFS(int from, int u, int cnt) {
-  printf("visiting %d, cnt = %d\n", u, cnt);
-  if (seen[u]) return cnt;
+int DFS(int from, int u) {
+  //printf("visiting %d\n", u);
+  if (seen[u]) {
+    iscycle = true;
+    return 0;
+  }
   seen[u] = 1;
+  int res = 1;
   for (set<int>::iterator it = edges[u].begin(); it != edges[u].end(); ++it) {
     if (*it == from) continue;
-    return DFS(u, *it, cnt+1);
+    res += DFS(u, *it);
   }
-  return 0;
+  return res;
 }
 
 void init() {
@@ -53,9 +58,10 @@ int main() {
 
     for (it_type it = edges.begin(); it != edges.end(); ++it) {
       if (!seen[it->first]) {
-        int l = DFS(-1, it->first, 0);
-        printf("start from %d, dfs=%d\n", it->first, l);
-        if (l != 0 & l != n) {
+        iscycle = false;
+        int l = DFS(-1, it->first);
+        //printf("start from %d, iscycle= %d, dfs=%d\n", it->first, iscycle, l);
+        if (iscycle && l != n) {
           good = false;
           break;
         }

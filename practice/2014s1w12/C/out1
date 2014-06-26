@@ -1,18 +1,22 @@
-visiting 1, cnt = 0
-visiting 2, cnt = 1
-visiting 3, cnt = 2
-start from 1, dfs=0
+visiting 1
+visiting 2
+visiting 3
+start from 1, dfs=3
 Y
 N
 N
-visiting 1, cnt = 0
-visiting 2, cnt = 1
-start from 1, dfs=0
-Y
-visiting 1, cnt = 0
-visiting 2, cnt = 1
-visiting 3, cnt = 2
-visiting 4, cnt = 3
-visiting 1, cnt = 4
+visiting 1
+visiting 2
+start from 1, dfs=2
+N
+visiting 1
+visiting 2
+visiting 3
+visiting 4
 start from 1, dfs=4
+Y
+visiting 1
+visiting 2
+visiting 3
+start from 1, dfs=3
 Y

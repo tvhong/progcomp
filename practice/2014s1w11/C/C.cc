@@ -22,7 +22,7 @@ int main() {
     ans = 0;
     for (int i=0; i<n; i++)
       if (!danger[i]) ans++;
-    printf(" %d\n", ans);
+    printf("%d\n", ans);
     /*
     for (int i=0; i<2*n; i++)
       printf("%3d", a[i]);
