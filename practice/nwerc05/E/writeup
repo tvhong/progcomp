@@ -1,0 +1,26 @@
+Notice that this "cave" can be modeled as a tree with every node having at most
+2 direct children where a keypoint is a vertex and a passage is an edge. The
+tree is rooted at the entrance. Additionally, there are traps placed on the
+vertices.
+
+This is a tree because
+-  There is only 1 entrace
+-  There is only 1 path from the entrance to any vertex
+
+This tree has at most 2 children as each key point can connect to at most 3
+other keypoints with one being its parent.
+
+We want to reach all the leaves that can be reached from the root without
+passing any trap. The question ask to find the minimum number of places to
+start graph search (DFS) to reach all desired leaves.
+There is an additional constraint, however, which states that we can avoid
+visiting 1 vertex during DFS. 
+
+Clearly we want to start searching from as high as possible without being
+walked into a trap. So we want to build an algorithm to tell us if a vertex is
+good for starting.
+
+We are only interested in vertices that has a leaf under it and doesn't make
+us walk into a trap. We could do that using recursion. After having all those
+information, we only need to start from the root and start DFS from the highest
+vertices possible
