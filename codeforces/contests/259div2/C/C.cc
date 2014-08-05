@@ -5,7 +5,7 @@ using namespace std;
 int n, m;
 
 int main() {
-    scanf("%d %d", &n, &m);
+    scanf("%d %d", &m, &n);
     printf("n = %d, m = %d\n", n, m);
     if (m == 1) {
         //TODO:
