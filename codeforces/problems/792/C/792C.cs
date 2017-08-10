@@ -40,20 +40,20 @@ namespace CodeForces {
         private void buildK() {
             for (int i = 1; i < this.n; i++) {
                 for (int rem = 0; rem < 3; rem++) {
-                    if (this.nums[i] % 3 == 0) {
-                        if (this.nums[i] == 0 && k[i-1, rem] == 0) {
-                            // cannot keep this digit 0 because we have no non-zero digit before.
-                            k[i, rem] = k[i-1, rem];
-                        } else {
-                            // otherwise we keep all digits divisible by 3
-                            k[i, rem] = k[i-1, rem] + 1;
-                        }
-                    } else {
-                        int compl = this.getCompliment(rem, this.nums[i]);
-                        int scoreIfKeepThis = (k[i-1, compl] > 0) ? k[i-1, compl] + 1 : 0;
-                        int scoreIfDiscardThis = k[i-1, rem];
-                        k[i, rem] = Math.Max(scoreIfKeepThis, scoreIfDiscardThis);
+                    if (this.nums[i] == 0 && k[i-1, rem] == 0) {
+                        // cannot keep this digit 0 because we have no non-zero digit before.
+                        k[i, rem] = k[i-1, rem];
+                        continue;
                     }
+
+                    int scoreIfStartHere = (rem == this.nums[i] % 3) ? 1 : 0;
+
+                    int compl = this.getCompliment(rem, this.nums[i]);
+                    int scoreIfKeepThis = (k[i-1, compl] > 0) ? k[i-1, compl] + 1 : 0;
+
+                    int scoreIfDiscardThis = k[i-1, rem];
+                    k[i, rem] = Math.Max(scoreIfStartHere, scoreIfKeepThis);
+                    k[i, rem] = Math.Max(k[i, rem], scoreIfDiscardThis);
                 }
             }
         }
@@ -88,7 +88,7 @@ namespace CodeForces {
         }
 
         public void printAnswer() {
-            this.printK();
+            // this.printK();
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < this.n; i++) {
                 if (this.isKept[i]) {
