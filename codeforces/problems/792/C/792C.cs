@@ -1,81 +1,120 @@
 using System;
 using System.Text;
+using System.Diagnostics;
 namespace CodeForces {
     class Solve792C {
-        string num;
-        bool[] isDiscarded;
-        bool anyZeroDiscarded = false;
-
-        int mod1Cnt = 0;
-        int[] mod1Positions = new int[3];
-
-        int mod2Cnt = 0;
-        int[] mod2Positions = new int[3];
+        const int MAX_LENGTH = 100000;
+        int n;
+        int[] nums = new int[MAX_LENGTH + 5];
+        int[,] k = new int[MAX_LENGTH, 3];
+        bool[] isKept = new bool[MAX_LENGTH];
+        bool hasZero = false;
 
         public void readInput() {
-            this.num = Console.ReadLine();
-            this.isDiscarded = new bool[this.num.Length];
+            string input = Console.ReadLine();
+            this.n = input.Length;
+            for (int i = 0; i < input.Length; i++) {
+                this.nums[i] = input[i] - '0';
+                if (this.nums[i] == 0) {
+                    this.hasZero = true;
+                }
+            }
         }
 
         public void solve() {
-            for (int i = 0; i < this.num.Length; i++) {
-                int val = this.num[i] - '0';
-                int mod = val % 3;
-                if (mod == 1) {
-                    this.mod1Positions[this.mod1Cnt++] = i;
-                    if (this.mod1Cnt == 3) {
-                        this.mod1Cnt = 0;
-                    }
-                } else if (mod == 2) {
-                    this.mod2Positions[this.mod2Cnt++] = i;
-                    if (this.mod2Cnt == 3) {
-                        this.mod2Cnt = 0;
-                    }
+            this.initK();
+            this.buildK();
+            this.buildAnswer();
+        }
+
+        private void initK() {
+            for (int rem = 0; rem < 3; rem++) {
+                if (rem == this.nums[0] % 3) {
+                    k[0, rem] = 1;
+                } else {
+                    k[0, rem] = 0;
                 }
             }
-
-            discardDigits();
-            cleanupZeros();
         }
 
-        private void discardDigits() {
-            int startIdx = Math.Min(this.mod1Cnt, this.mod2Cnt);
-            for (int i = startIdx; i < this.mod1Cnt; i++) {
-                this.isDiscarded[this.mod1Positions[i]] = true;
-            }
-
-            for (int i = startIdx; i < this.mod2Cnt; i++) {
-                this.isDiscarded[this.mod2Positions[i]] = true;
-            }
-        }
-
-        private void cleanupZeros() {
-            for (int i = 0; i < this.num.Length; i++) {
-                if (!this.isDiscarded[i]) {
-                    if (this.num[i] == '0') {
-                        this.isDiscarded[i] = true;
-                        this.anyZeroDiscarded = true;
+        private void buildK() {
+            for (int i = 1; i < this.n; i++) {
+                for (int rem = 0; rem < 3; rem++) {
+                    if (this.nums[i] % 3 == 0) {
+                        if (this.nums[i] == 0 && k[i-1, rem] == 0) {
+                            // cannot keep this digit 0 because we have no non-zero digit before.
+                            k[i, rem] = k[i-1, rem];
+                        } else {
+                            // otherwise we keep all digits divisible by 3
+                            k[i, rem] = k[i-1, rem] + 1;
+                        }
                     } else {
-                        break;
+                        int compl = this.getCompliment(rem, this.nums[i]);
+                        int scoreIfKeepThis = (k[i-1, compl] > 0) ? k[i-1, compl] + 1 : 0;
+                        int scoreIfDiscardThis = k[i-1, rem];
+                        k[i, rem] = Math.Max(scoreIfKeepThis, scoreIfDiscardThis);
                     }
                 }
             }
+        }
+
+        private void buildAnswer() {
+            if (k[this.n - 1, 0] == 0) {
+                // no answer
+                return;
+            }
+
+            int rem = 0;
+            for (int i = this.n - 1; i > 0; i--) {
+                if (k[i, rem] == k[i-1, rem]) {
+                    this.isKept[i] = false;
+                } else {
+                    this.isKept[i] = true;
+
+                    int compl = this.getCompliment(rem, this.nums[i]);
+                    Debug.Assert(k[i, rem] == k[i-1, compl] + 1);
+
+                    rem = compl; 
+                }
+            }
+
+            if (rem == this.nums[0] % 3) {
+                this.isKept[0] = true;
+            }
+        }
+
+        private int getCompliment(int rem, int val) {
+            return (rem+9 - val) % 3;
         }
 
         public void printAnswer() {
+            this.printK();
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < this.num.Length; i++) {
-                if (!this.isDiscarded[i]) {
-                    sb.Append(this.num[i]);
+            for (int i = 0; i < this.n; i++) {
+                if (this.isKept[i]) {
+                    sb.Append(this.nums[i]);
                 }
             }
 
             if (sb.Length == 0) {
-                if (this.anyZeroDiscarded) {
-                    sb.Append('0');
+                if (this.hasZero) {
+                    sb.Append(0);
                 } else {
                     sb.Append("-1");
                 }
+            }
+
+            Console.WriteLine(sb.ToString());
+        }
+
+        private void printK() {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < this.n; i++) {
+                for (int rem = 0; rem < 3; rem++) {
+                    sb.Append(k[i, rem]);
+                }
+
+                sb.Append(Environment.NewLine);
             }
 
             Console.WriteLine(sb.ToString());
